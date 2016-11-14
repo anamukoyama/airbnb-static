@@ -16,82 +16,147 @@
   </head>
 
   <body>
- <!-- Your banner code -->
-  <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg')">
-    <div class="banner-content">
-      <h1>WELCOME HOME</h1>
-      <p>Rent unique places to stay from local hosts in 190+ countries.</p>
-      <a class="btn btn-primary btn-lg">How it works</a>
+
+<div class="banner">
+      <div class="banner-bloc">
+        <h1>WELCOME HOME</h1>
+        <p>Rent unique places to stay from local hosts in 190+ countries.</p>
+
+        <a href="" class="btn btn-success btn-lg">How it works</a>
+      </div>
     </div>
-  </div>
+
     <!-- Your features code -->
-  <div class="container">
-    <div class="features text-center padded ">
-      <img src="images/globe.png">
-      <h2>Discover the world</h2>
-      <p>The earth is your new home.</p>
-      <img src="images/dollar.png">
-      <h2>Pay online</h2>
-      <p>No cash issues anymore</p>
-      <img src="images/beer.png">
-      <h2>Meet people</h2>
-      <p>Discover new culture and lifestyle</p>
-      <img src="images/heart.png">
-      <h2>Share and love</h2>
-      <p>Join a community you will love</p>
-    </div>
-  </div>
-  <div class="wrapper-grey">
-    <div class="container text-center padded">
-      <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-paris.jpg');">
-      <div class="card-category">Paris</div>
-      <div class="card-descrition">
-        <h2>Seb's home</h2>
-        <p>Charming room with patio</p>
-        <img class="card-user avatar avatar-large" src="images/seb">
-        <a class="card-link" href=""></a>
+    <div class="wrapper-features">
+      <div class="container">
+        <div class="row">
+          <div class="features">
+            <div class="col-xs-12 col-sm-6 col-md-3 feature">
+              <img src="images/globe.png" alt="globe">
+              <h2>Discover the world</h2>
+              <p>The earth is your new home.</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 feature">
+              <img src="images/dollar.png" alt="globe">
+              <h2>Pay online</h2>
+              <p>No cash issues anymore.</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 feature">
+              <img src="images/beer.png" alt="globe">
+              <h2>Meet people </h2>
+              <p>Discover new culture and lifestyle.</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 feature">
+              <img src="images/heart.png" alt="globe">
+              <h2>Share and love</h2>
+              <p>Join a community you will love.</p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+
+    <!-- Your card code -->
+    <div class="wrapper-card">
+      <div class="container">
+        <h2 class="title">Your next trip</h2>
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: url('images/card-paris.jpg')">
+              <a>Paris</a>
+              <img class="avatar" src="images/seb.jpg" alt="seb">
+              <div class="card-title">
+                <h3>Seb's home</h3>
+                <p>Great place</p>
+              </div>
+              <a href="" class="card-link"></a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: url('images/card-london.jpeg')">
+              <a>London</a>
+              <img class="avatar" src="images/anne.jpg" alt="Anne">
+              <div class="card-title">
+                <h3>Anne's home</h3>
+                <p>Nice area</p>
+              </div>
+              <a href="" class="card-link"></a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: url('images/card-brussels.jpeg')">
+              <a>Brussels</a>
+              <img class="avatar" src="images/romain.jpeg" alt="Romain">
+              <div class="card-title">
+                <h3>Romain's home</h3>
+                <p>Restaurants nearby</p>
+              </div>
+              <a href="" class="card-link"></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+
     <!-- Your newsletter code -->
-  <div class="newsletter text-center padded">
-    <h2>Get news from us</h2>
-    <br>
-    <p>Leave us your email and get news from us</p>
-    <form class="form-inline">
-      <div class="form-group">
-      <input type="email" class= "form-control" placeholder="youremail@gmail.com">
-      </div>
-      <button type="submit" class="btn btn-primary btn-default">Subscribe</button>
-    </form>
-  </div>
+    <div class="newsletter">
+      <h3> Get news from us </H3>
+      <p>Leave us your mail and get news from us</p>
+      <form class="form-inline">
+        <input type="email" placeholder="bob@gmail.com" class="form-control">
+        <input type="submit" value="Subscribe" class="btn btn-primary btn-bordered btn-bordered-primary">
+      </form>
+    </div>
 
     <!-- Your map code -->
+    <div class="wrapper-map">
+      <div id="map" style="width: 100%; height: 400px;"></div>
+    </div>
+
 
     <!-- Your footer code -->
-  <div class="wrapper-grey">
-  <div class="footer">
-    <ul class= "table list-inline">
-      <li>
-        <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
-      </li>
-      <li>
-        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      </li>
-      <li>
-        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      </li>
-      <li>
-        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      </li>
-    </ul>
-    <p>This is a Airbnb Home challenge @ LeWagon</p>
-  </div>
-  </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <ul class="list-inline col-xs-12 col-sm-4">
+            <li><i class="fa fa-youtube"></i></li>
+            <li><i class="fa fa-instagram"></i></li>
+            <li><i class="fa fa-facebook"></i></li>
+            <li><i class="fa fa-twitter"></i></li>
+          </ul>
+          <p class="text-right col-xs-12 col-sm-8">This is a Airbnb Home challenge @ LeWagon</p>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(48.8655909, 2.378983);
+    var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [] // TODO: replace [] by array from https://snazzymaps.com/
+    };
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "You are here!"
+    });
+    </script>
   </body>
 </html>

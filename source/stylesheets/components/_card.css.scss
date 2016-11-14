@@ -1,0 +1,59 @@
+.wrapper-card{
+  background-color: #F4F4F4;
+  padding-bottom: 100px;
+}
+
+.card {
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 25px;
+  color: white;
+  border-radius: 4px;
+  opacity: 0.5;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background: black;
+    opacity: 0;
+}
+
+.card-link:hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background: black;
+    opacity: 0.4;
+}
+
+.card img {
+  position: absolute;
+  right : 15px;
+  top : 15px;
+}
+
+.card a {
+  position: absolute;
+  left : 15px;
+  top : 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.card-title {
+  position: absolute;
+  left : 15px;
+  bottom: 15px;
+}
